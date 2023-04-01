@@ -1,0 +1,19 @@
+
+
+@media (max-width:500px) {
+    .logo img{
+        width: 40px;
+    }
+  
+    /* .list-on-phone{
+        background: #1b2021;
+        z-index: 122;
+        position: absolute;
+        top: 83px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    } */
+
+}

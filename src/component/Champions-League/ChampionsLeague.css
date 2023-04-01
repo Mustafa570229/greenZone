@@ -1,0 +1,122 @@
+.champions-league {
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+    color: #141414;
+
+}
+.group-name{
+    font-weight: 700;
+    opacity: 0.7;
+}
+.group{
+    border-radius: 10px;
+    background: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: inset 2px 2px 32px  #00000031;
+
+}
+.champions-table {
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+
+}
+.champions-table .pts{
+ font-weight: 600;
+ color: #444444a2;
+}
+.champions-table-head {
+    text-align: center;
+    padding: 10px;
+    background: #ebe1e1a9;
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(2, 119, 119);
+
+}
+
+.champions-table:hover {
+    box-shadow: inset 0px 0px 10px  #00000071;
+
+}
+
+.group img {
+    width: 40px;
+}
+
+.champions-table {
+    text-align: center;
+
+}
+
+.champions-table .team-name {
+    text-align: start;
+}
+
+.champions-table .team-icon {
+    text-align: start;
+}
+
+@media (max-width:500px){
+    .champions-league {
+        width: 100%;
+        margin: auto;
+        font-size: 18px;
+        color: #141414;
+    }
+    .group-name{
+        font-weight: 600;
+        opacity: 0.7;
+    }
+    .group{
+        border-radius: 5px;
+        background: #ffffff;
+        margin: 10px;
+        padding: 10px;
+    }
+    .champions-table {
+        text-align: center;
+        padding: 5px;
+        align-items: center;
+    }
+    .champions-table .pts{
+     font-weight: 600;
+     color: #444444a2;
+    }
+    .champions-table-head {
+        text-align: center;
+        padding: 5px;
+        background: #ebe1e1;
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(2, 119, 119);
+        padding-right: 12px;
+    }   
+    .champions-table-head .club{
+        text-align: start;
+    } 
+    .champions-table:hover {
+        background: #ebe1e1a9;
+    }
+    
+    .group img {
+        width: 34px;
+    }
+    
+    .champions-table {
+        text-align: center;
+    
+    }
+    
+    .champions-table .team-name {
+        text-align: start;
+    }
+    
+    .champions-table .team-icon {
+        text-align: start;
+        padding-left: 0;
+    }
+    
+}

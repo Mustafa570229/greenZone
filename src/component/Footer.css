@@ -1,0 +1,147 @@
+.footer-main {
+    width: 100%;
+    background: #ffffffa8;
+    margin: auto;
+
+}
+
+.footer-container {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.footer-container img {
+    width: 50px;
+    margin: 23px;
+    filter: drop-shadow(1px 1px 25px rgba(0, 0, 0, 0.5));
+
+}
+
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icons .icon {
+    cursor: pointer;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    transition: .3s ease-out;
+}
+
+.icons .icon:hover {
+    scale: 1.15;
+}
+
+.icons .icon .bg {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    transform: rotate(14deg);
+    transition: .3s ease-out;
+}
+
+.icons .icon:hover .bg {
+    transform: rotate(24deg);
+}
+
+.icons .icon:nth-child(1) .bg {
+    background: #c4302b;
+}
+
+.icons .icon:nth-child(2) .bg {
+    background: #d405da;
+}
+
+.icons .icon:nth-child(3) .bg {
+    background: #0035bb;
+}
+
+.icons .icon:nth-child(4) .bg {
+    background: #0077b5;
+}
+
+.icons .icon:nth-child(5) .bg {
+    background: #1d202d;
+}
+
+.icons .icon:nth-child(6) .bg {
+    background: #30a4dc;
+}
+
+.icons .icon .glass {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, .2);
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 18px;
+}
+
+.icons .icon i {
+    font-size: 22px;
+    opacity: 0.5;
+    background: linear-gradient(45deg,
+            rgba(255, 255, 255, 1),
+            rgba(255, 255, 255, .3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-left: 10px solid #0035bb;
+    box-shadow: 1px 1px 5px #0035bb;
+    border-radius: 16px;
+    position: relative;
+    font-weight: 600;
+}
+
+.footer-links a::after {
+    content: "";
+    background-color: #0035bb;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .2s;
+    display: block;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+
+}
+.footer-links a:hover{
+    color: #fff;
+
+}
+.footer-links a:hover::after {
+    width: 100%;
+    opacity: 0.5;
+}
