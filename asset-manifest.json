@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/greenZone/static/css/main.0e6c47bf.css",
+    "main.js": "/greenZone/static/js/main.bca260d7.js",
+    "static/media/3.png": "/greenZone/static/media/3.acd20c4d5027fc602b1c.png",
+    "static/media/logo3.png": "/greenZone/static/media/logo3.e9023a7476632a2ca19b.png",
+    "index.html": "/greenZone/index.html",
+    "main.0e6c47bf.css.map": "/greenZone/static/css/main.0e6c47bf.css.map",
+    "main.bca260d7.js.map": "/greenZone/static/js/main.bca260d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e6c47bf.css",
+    "static/js/main.bca260d7.js"
+  ]
+}
