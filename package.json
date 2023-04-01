@@ -1,6 +1,6 @@
 {
   "name": "green-zone",
-  "homepage": "https://mustafa570229.github.io/greenZone/",
+  "homepage": "https://mustafa570229.github.io/greenZone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,7 +9,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
-    "gh-pages": "^5.0.0",
     "http-proxy-middleware": "^2.0.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
@@ -44,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
